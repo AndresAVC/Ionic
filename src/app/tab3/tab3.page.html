@@ -1,8 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Acerca de
-    </ion-title>
+    <ion-title> Acerca de </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -13,15 +11,34 @@
     </ion-toolbar>
   </ion-header>
   <ion-card>
-    <ion-img  src="../../assets/App moviles.png"/>
+    <ion-img src="../../assets/App moviles.png" />
     <ion-card-header>
       <ion-card-title>Materia de aplicaciones moviles</ion-card-title>
       <ion-card-subtitle>Introducción</ion-card-subtitle>
     </ion-card-header>
-  
+
     <ion-card-content>
-      
+      El desarrollo de aplicaciones móviles es el proceso de creación de
+      software para smartphones, tablets y asistentes digitales, más comúnmente
+      para los sistemas operativos Android e iOS. Este tipo de software puede
+      preinstalarse en el dispositivo, descargarse desde una tienda de
+      aplicaciones móviles o accederse a través de un navegador web móvil. Los
+      lenguajes de programación y marcación utilizados incluyen Java, Swift, C#,
+      y HTML5. El desarrollo de aplicaciones móviles está creciendo rápidamente
+      y es esencial para las organizaciones que buscan cumplir con las
+      expectativas de los usuarios en cuanto a conveniencia e inmediatez para
+      realizar transacciones y acceder a la información. Las aplicaciones
+      móviles son la forma más popular para que las personas y las empresas se
+      conecten a Internet
+      <ion-picker>
+        <ion-picker-column value="javascript">
+          <ion-picker-column-option value="" disabled="true">--</ion-picker-column-option>
+          <ion-picker-column-option value="javascript">Javascript</ion-picker-column-option>
+          <ion-picker-column-option value="typescript">Typescript</ion-picker-column-option>
+          <ion-picker-column-option value="rust">Rust</ion-picker-column-option>
+          <ion-picker-column-option value="c#">C#</ion-picker-column-option>
+        </ion-picker-column>
+      </ion-picker>
     </ion-card-content>
   </ion-card>
-
 </ion-content>
